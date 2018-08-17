@@ -18,6 +18,11 @@ repositories {
     jcenter()
 }
 
+task print() {
+	doLast{
+		println "github push complete"
+	}
+}
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
 
