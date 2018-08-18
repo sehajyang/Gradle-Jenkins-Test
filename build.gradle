@@ -23,6 +23,11 @@ task print() {
 		println "github push complete"
 	}
 }
+
+plugins {
+  id "org.sonarqube" version "2.6"
+}
+
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
 
